@@ -8,5 +8,5 @@ app.get('/',(req,res) => {
     res.send('Hello World - 1.0.0');
 });
 app.listen(PORT,HOST,() => {
-    console.log(`Running On https://${HOST}:${PORT}`);
+    console.log(`Runnings On https://${HOST}:${PORT}`);
 });
